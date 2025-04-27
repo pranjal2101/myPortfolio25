@@ -728,8 +728,12 @@ margin-bottom: 3rem;
 .aboutMe-ab1 p {
     font-size: 1.7rem;
     margin-top: 2rem;
-    text-align: justify;
     color: #c5c6c7;
+    /* text-align: cent er; */
+    /* Changed from justify to center */
+    /* padding: 0 2rem;  */
+    width: 95%;
+    /* Added horizontal padding */
 }
 
 .aboutMe-ab1 .btn1 {
@@ -2036,6 +2040,17 @@ img {
     }
     .serviceContent {
         text-align: justify;
+    }
+    .aboutMe-ab1 {
+        padding: 3rem;
+        width: 65%;
+        text-align: justify;
+    }
+    .aboutMe-ab1 p {
+        font-size: 1.4rem;
+        /* Slightly smaller text for mobiles */
+        /* padding: 0 1rem; */
+        /* Slightly tighter padding */
     }
 }
 
